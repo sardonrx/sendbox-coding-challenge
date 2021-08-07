@@ -11,8 +11,8 @@ facing North.In order to control a rover, NASA sends a simple string of letters.
 letters are ‘L’, ‘R’ and ‘M’. ‘L’ and ‘R’ makes the rover spin 90 degrees left or right respectively,
 without moving from its current spot. ‘M’ means move forward one grid point, and maintain the
 same Heading. Assume that the square directly North from (x, y) is (x, y+1).
-<br>
-INPUT: <br><br><br>
+<br><br><br>
+INPUT: <br>
 The first line of input is the upper-right coordinates of the plateau, the lower- left coordinates are
 assumed to be 0,0. The rest of the input is information pertaining to the rovers that have been
 deployed. Each rover has two lines of input. The first line gives the rover’s position, and the
@@ -20,16 +20,16 @@ second line is a series of instructions telling the rover how to explore the pla
 made up of two integers and a letter separated by spaces, corresponding to the x and y
 coordinates and the rover’s orientation. Each rover will be finished sequentially, which means
 that the second rover won’t start to move until the first one has finished moving.
-<br>
-OUTPUT: <br><br><br>
+<br><br><br>
+OUTPUT: <br>
 The output for each rover should be its final coordinates and heading.<br><br>
 INPUT AND OUTPUT:<br>
 Test Input:<br>
-5 5
-1 2 N
-L M L M L M L M M
-3 3 E
-M M R M M R M R R M
-Expected Output:
-1 3 N
-5 1 E
+5 5 <br>
+1 2 N <br>
+L M L M L M L M M <br>
+3 3 E <br>
+M M R M M R M R R M<br>
+Expected Output: <br><br>
+1 3 N <br>
+5 1 E <br>
