@@ -40,4 +40,4 @@ $ python run.py
 
 # Unittest
 ```bash
-$ python -m unittest -v tests/test_mars_rover.py
+$ python -m unittest -v test.py
