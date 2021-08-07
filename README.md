@@ -1,5 +1,5 @@
 # sendbox-coding-challenge
-Coding Problem
+<h1> Coding Problem </h1>
 
 A squad of robotic rovers are to be landed by NASA on a plateau on Mars. This plateau, which
 is curiously rectangular, must be navigated by the rovers so that their on-board cameras can get
@@ -11,6 +11,7 @@ facing North.In order to control a rover, NASA sends a simple string of letters.
 letters are ‘L’, ‘R’ and ‘M’. ‘L’ and ‘R’ makes the rover spin 90 degrees left or right respectively,
 without moving from its current spot. ‘M’ means move forward one grid point, and maintain the
 same Heading. Assume that the square directly North from (x, y) is (x, y+1).
+<br>
 INPUT:
 The first line of input is the upper-right coordinates of the plateau, the lower- left coordinates are
 assumed to be 0,0. The rest of the input is information pertaining to the rovers that have been
@@ -19,6 +20,7 @@ second line is a series of instructions telling the rover how to explore the pla
 made up of two integers and a letter separated by spaces, corresponding to the x and y
 coordinates and the rover’s orientation. Each rover will be finished sequentially, which means
 that the second rover won’t start to move until the first one has finished moving.
+<br>
 OUTPUT:
 The output for each rover should be its final coordinates and heading.
 INPUT AND OUTPUT:
