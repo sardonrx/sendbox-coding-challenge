@@ -33,3 +33,7 @@ M M R M M R M R R M<br>
 Expected Output: <br><br>
 1 3 N <br>
 5 1 E <br>
+
+
+# How to run ?
+$ python run.py
