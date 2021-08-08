@@ -5,7 +5,7 @@ from marsrover import Rover
 
 def main():
     plateau = Plateau(5, 5)
-    position = Position(1, 2)
+    position = Position(1,2)
     # Create rover instance
     rover = Rover(plateau, position, Rover.DIRECTIONS.get('N'))
     rover.process("LMLMLMLMM")
